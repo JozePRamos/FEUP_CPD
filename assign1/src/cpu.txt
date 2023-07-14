@@ -1,0 +1,56 @@
+Architecture:            x86_64
+  CPU op-mode(s):        32-bit, 64-bit
+  Address sizes:         39 bits physical, 48 bits virtual
+  Byte Order:            Little Endian
+CPU(s):                  8
+  On-line CPU(s) list:   0-7
+Vendor ID:               GenuineIntel
+  Model name:            Intel(R) Core(TM) i7-9700 CPU @ 3.00GHz
+    CPU family:          6
+    Model:               158
+    Thread(s) per core:  1
+    Core(s) per socket:  8
+    Socket(s):           1
+    Stepping:            13
+    CPU max MHz:         4700,0000
+    CPU min MHz:         800,0000
+    BogoMIPS:            6000.00
+    Flags:               fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mc
+                         a cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss 
+                         ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art
+                          arch_perfmon pebs bts rep_good nopl xtopology nonstop_
+                         tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cp
+                         l vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid ss
+                         e4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes 
+                         xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_f
+                         ault epb invpcid_single ssbd ibrs ibpb stibp ibrs_enhan
+                         ced tpr_shadow vnmi flexpriority ept vpid ept_ad fsgsba
+                         se tsc_adjust bmi1 avx2 smep bmi2 erms invpcid mpx rdse
+                         ed adx smap clflushopt intel_pt xsaveopt xsavec xgetbv1
+                          xsaves dtherm ida arat pln pts hwp hwp_notify hwp_act_
+                         window hwp_epp md_clear flush_l1d arch_capabilities
+Virtualization features: 
+  Virtualization:        VT-x
+Caches (sum of all):     
+  L1d:                   256 KiB (8 instances)
+  L1i:                   256 KiB (8 instances)
+  L2:                    2 MiB (8 instances)
+  L3:                    12 MiB (1 instance)
+NUMA:                    
+  NUMA node(s):          1
+  NUMA node0 CPU(s):     0-7
+Vulnerabilities:         
+  Itlb multihit:         KVM: Mitigation: VMX disabled
+  L1tf:                  Not affected
+  Mds:                   Not affected
+  Meltdown:              Not affected
+  Mmio stale data:       Mitigation; Clear CPU buffers; SMT disabled
+  Retbleed:              Mitigation; Enhanced IBRS
+  Spec store bypass:     Mitigation; Speculative Store Bypass disabled via prctl
+                          and seccomp
+  Spectre v1:            Mitigation; usercopy/swapgs barriers and __user pointer
+                          sanitization
+  Spectre v2:            Mitigation; Enhanced IBRS, IBPB conditional, RSB fillin
+                         g, PBRSB-eIBRS SW sequence
+  Srbds:                 Mitigation; Microcode
+  Tsx async abort:       Mitigation; TSX disabled

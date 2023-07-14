@@ -1,0 +1,9 @@
+name : user1
+pass : pass1
+score : 0
+name : user2
+pass : pass2
+score : 0
+name : pork
+pass : pork
+score : 0

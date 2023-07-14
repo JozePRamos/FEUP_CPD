@@ -1,0 +1,5 @@
+Autenticação
+filas de espera
+conexão ao jogo
+jogo simples
+cirar json X
